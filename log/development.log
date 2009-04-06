@@ -1,0 +1,109 @@
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (50.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (187.0ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (135.9ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090406211201)
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (95.5ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(40), `name` varchar(100) DEFAULT '', `email` varchar(100), `crypted_password` varchar(40), `salt` varchar(40), `created_at` datetime, `updated_at` datetime, `remember_token` varchar(40), `remember_token_expires_at` datetime, `activation_code` varchar(40), `activated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (116.4ms)[0m   [0;1mCREATE UNIQUE INDEX `index_users_on_login` ON `users` (`login`)[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090406211201')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (59.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (2.8ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-04-06 17:17:59) [GET]
+  [4;35;1mUser Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering users/new
+Completed in 72ms (View: 62, DB: 3) | 200 OK [http://localhost/signup]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-04-06 17:18:28) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"guidosa", "password"=>"guidosa", "login"=>"Chris Nelson", "email"=>"me@christophernelsonconsulting.com"}, "commit"=>"Sign up", "authenticity_token"=>"pGrNprF9ghddsQC1STs0mNWeN2KbTldTDaQXLqZ6vSQ="}
+  [4;35;1mUser Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Exists (20.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'chris nelson') LIMIT 1[0m
+  [4;36;1mUser Exists (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'me@christophernelsonconsulting.com') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+Rendering users/new
+Completed in 43ms (View: 2, DB: 24) | 200 OK [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-04-06 17:18:47) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"guidosa", "password"=>"guidosa", "login"=>"superchris", "email"=>"me@christophernelsonconsulting.com"}, "commit"=>"Sign up", "authenticity_token"=>"pGrNprF9ghddsQC1STs0mNWeN2KbTldTDaQXLqZ6vSQ="}
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Exists (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'superchris') LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'me@christophernelsonconsulting.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`name`, `salt`, `updated_at`, `activated_at`, `crypted_password`, `remember_token_expires_at`, `activation_code`, `remember_token`, `login`, `email`, `created_at`) VALUES('', '69102ece6e53daa76a9a45726ed70bfbec877571', '2009-04-06 21:18:47', NULL, '064e46eb8db1b7998274a07aed034bfa9e628aee', NULL, '523c3da4f3ce4b58e20a4b235fdf936085dccbcd', NULL, 'superchris', 'me@christophernelsonconsulting.com', '2009-04-06 21:18:47')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 34ms (DB: 4) | 302 Found [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-04-06 17:19:27) [GET]
+Rendering sessions/new
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-04-06 17:19:38) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"pGrNprF9ghddsQC1STs0mNWeN2KbTldTDaQXLqZ6vSQ=", "login"=>"superchris", "password"=>"guidosa"}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (login = 'superchris' and activated_at IS NOT NULL) LIMIT 1[0m
+Failed login for 'superchris' from 127.0.0.1 at Mon Apr 06 21:19:38 UTC 2009
+Rendering sessions/new
+Completed in 14ms (View: 3, DB: 1) | 200 OK [http://localhost/session]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SplognaController#index (for 127.0.0.1 at 2009-04-06 17:32:44) [GET]
+Rendering splogna/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` [0m
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#activate (for 127.0.0.1 at 2009-04-06 17:34:44) [GET]
+  Parameters: {"activation_code"=>"523c3da4f3ce4b58e20a4b235fdf936085dccbcd"}
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (2.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`activation_code` = '523c3da4f3ce4b58e20a4b235fdf936085dccbcd') LIMIT 1[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (1.6ms)[0m   [0mUPDATE `users` SET `activated_at` = '2009-04-06 21:34:44', `activation_code` = NULL, `updated_at` = '2009-04-06 21:34:44' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/login
+Completed in 87ms (DB: 9) | 302 Found [http://localhost/activate/523c3da4f3ce4b58e20a4b235fdf936085dccbcd]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-04-06 17:34:44) [GET]
+Rendering sessions/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-04-06 17:35:12) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"pGrNprF9ghddsQC1STs0mNWeN2KbTldTDaQXLqZ6vSQ=", "login"=>"superchris", "password"=>"guidosa"}
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM `users` WHERE (login = 'superchris' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;36;1mUser Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 15ms (DB: 5) | 302 Found [http://localhost/session]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SplognaController#index (for 127.0.0.1 at 2009-04-06 17:35:13) [GET]
+Rendering splogna/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
