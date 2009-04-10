@@ -100,6 +100,13 @@ class UserTest < ActiveSupport::TestCase
     assert users(:quentin).remember_token_expires_at.between?(before, after)
   end
 
+  def test_users_have_needs
+    quentin = users(:quentin)
+    quentin.needs << Need.new(:title => "title", :description => "description")
+    quentin.save!
+    assert_equal 1, quentin.reload.needs.size
+  end
+  
 protected
   def create_user(options = {})
     record = User.new({ :login => 'quire', :email => 'quire@example.com', :password => 'quire69', :password_confirmation => 'quire69' }.merge(options))
