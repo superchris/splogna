@@ -1,0 +1,2 @@
+module MySplognaHelper
+end

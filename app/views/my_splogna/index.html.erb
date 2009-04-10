@@ -1,0 +1,11 @@
+<h1>My Needs</h1>
+<table>
+  <tr>
+    <th>Title</th>
+  </tr>
+  <% @needs.each do |need| %>
+    <tr>
+      <td><%=need.title %></td>
+    </tr>
+  <% end %>
+</table>

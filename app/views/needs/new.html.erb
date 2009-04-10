@@ -1,0 +1,9 @@
+<h1>Needs</h1>
+<p>Describe your need</p>
+<% form_for(@need) do |f| %>
+  <label for="need_title">Title</label><br/>
+  <%= f.text_field :title %><br/>
+  <label for="need_description">Description</label><br/>
+  <%= f.text_area :description %><br/>
+  <%= submit_tag("Save") %>
+<% end %>
