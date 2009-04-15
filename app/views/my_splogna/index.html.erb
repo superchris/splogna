@@ -5,7 +5,8 @@
   </tr>
   <% @needs.each do |need| %>
     <tr>
-      <td><%=need.title %></td>
+      <td><%=link_to need.title, need_url(need) %></td>
     </tr>
   <% end %>
 </table>
+<%= link_to "New Need", new_need_url %>
