@@ -7345,3 +7345,1177 @@ Rendering needs/show
   [4;35;1mTag Load (0.5ms)[0m   [0mSELECT DISTINCT tags.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Need') AND (`taggings`.taggable_id = 8)) ORDER BY LOWER(name) asc[0m
 Completed in 3ms (View: 2, DB: 4) | 200 OK [http://www.example.com/needs/8]
   [4;36;1mSQL (0.8ms)[0m   [0;1mROLLBACK[0m
+Unable to load roles_user, underlying cause no such file to load -- roles_user 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+/Users/superchris/dev/rails/splogna/test/integration/../test_helper.rb:35
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/dev/rails/splogna/test/integration/tags_test.rb:1
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:93:in `require_file'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:109:in `add_to_suites'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:108:in `each'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:108:in `add_to_suites'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:66:in `parse_args'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:59:in `loop'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:59:in `parse_args'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:166:in `run_mediator'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:279
+Unable to load roles_user, underlying cause no such file to load -- roles_user 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+/Users/superchris/dev/rails/splogna/test/integration/../test_helper.rb:35
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/dev/rails/splogna/test/integration/tags_test.rb:1
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:93:in `require_file'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:109:in `add_to_suites'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:108:in `each'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:108:in `add_to_suites'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:66:in `parse_args'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:59:in `loop'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:59:in `parse_args'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:166:in `run_mediator'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:279
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` LIMIT 1[0m
+  [4;35;1mNeed Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `needs`[0m
+  [4;36;1mTagging Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mNeed Create (0.3ms)[0m   [0;1mINSERT INTO `needs` (`title`, `description`, `user_id`) VALUES('title', 'description', 1)[0m
+  [4;35;1mTagging Load (0.4ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 9 AND `taggings`.taggable_type = 'Need') [0m
+  [4;36;1mTag Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `tags`[0m
+  [4;35;1mTag Load (0.7ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'foo') LIMIT 1[0m
+  [4;36;1mTag Create (0.3ms)[0m   [0;1mINSERT INTO `tags` (`name`, `taggings_count`) VALUES('foo', 0)[0m
+  [4;35;1mTagging Create (0.2ms)[0m   [0mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(9, 'Need', 9, NULL)[0m
+  [4;36;1mTag Load (0.2ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`id` = 9) [0m
+  [4;35;1mTag Update (0.2ms)[0m   [0mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 9) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mTag Load (0.3ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'foo') LIMIT 1[0m
+REQUESTING PAGE: GET /tags/9 with {} and HTTP headers {}
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-04-16 13:01:09) [GET]
+  Parameters: {"id"=>"9"}
+Rendering tags/show
+Completed in 18ms (View: 14, DB: 55) | 200 OK [http://www.example.com/tags/9]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mROLLBACK[0m
+Unable to load roles_user, underlying cause no such file to load -- roles_user 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+/Users/superchris/dev/rails/splogna/test/integration/../test_helper.rb:35
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/dev/rails/splogna/test/integration/tags_test.rb:1
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:93:in `require_file'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:109:in `add_to_suites'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:108:in `each'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:108:in `add_to_suites'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:66:in `parse_args'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:59:in `loop'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:59:in `parse_args'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:166:in `run_mediator'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:279
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` LIMIT 1[0m
+  [4;35;1mNeed Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `needs`[0m
+  [4;36;1mTagging Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mNeed Create (0.2ms)[0m   [0;1mINSERT INTO `needs` (`title`, `description`, `user_id`) VALUES('title', 'description', 1)[0m
+  [4;35;1mTagging Load (0.3ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 10 AND `taggings`.taggable_type = 'Need') [0m
+  [4;36;1mTag Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `tags`[0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'foo') LIMIT 1[0m
+  [4;36;1mTag Create (0.3ms)[0m   [0;1mINSERT INTO `tags` (`name`, `taggings_count`) VALUES('foo', 0)[0m
+  [4;35;1mTagging Create (0.2ms)[0m   [0mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(10, 'Need', 10, NULL)[0m
+  [4;36;1mTag Load (0.3ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`id` = 10) [0m
+  [4;35;1mTag Update (0.3ms)[0m   [0mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 10) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mTag Load (0.3ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'foo') LIMIT 1[0m
+REQUESTING PAGE: GET /tags/10 with {} and HTTP headers {}
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-04-16 13:05:06) [GET]
+  Parameters: {"id"=>"10"}
+  [4;36;1mTag Load (0.3ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`id` = 10) [0m
+  [4;35;1mTagging Load (0.2ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.tag_id = 10) [0m
+  [4;36;1mNeed Load (0.2ms)[0m   [0;1mSELECT * FROM `needs` WHERE (`needs`.`id` = 10) [0m
+Rendering tags/show
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #1 of app/views/tags/show.html.erb:
+1: <h1><%= tag.name%> </h1>
+2: <table>
+3:   <tr>
+4:     <th>Title</th>
+
+    app/views/tags/show.html.erb:1:in `tag'
+    app/views/tags/show.html.erb:1
+    webrat (0.4.4) lib/webrat/rails.rb:70:in `send'
+    webrat (0.4.4) lib/webrat/rails.rb:70:in `do_request'
+    webrat (0.4.4) lib/webrat/rails.rb:35:in `get'
+    webrat (0.4.4) lib/webrat/core/session.rb:104:in `send'
+    webrat (0.4.4) lib/webrat/core/session.rb:104:in `request_page'
+    webrat (0.4.4) lib/webrat/core/session.rb:205:in `visit'
+    (eval):2:in `visit'
+    test/integration/tags_test.rb:13:in `test_show'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+    /Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:174:in `run_mediator'
+    /Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:168:in `each'
+    /Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:168:in `run_mediator'
+    /Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:279
+
+Rendered rescues/_trace (50.3ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (3.9ms)[0m   [0mROLLBACK[0m
+Unable to load roles_user, underlying cause no such file to load -- roles_user 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+/Users/superchris/dev/rails/splogna/test/integration/../test_helper.rb:35
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/dev/rails/splogna/test/integration/tags_test.rb:1
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:93:in `require_file'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:109:in `add_to_suites'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:108:in `each'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:108:in `add_to_suites'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:66:in `parse_args'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:59:in `loop'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:59:in `parse_args'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:166:in `run_mediator'
+/Applications/NetBeans/NetBeans 6.5.app/Contents/Resources/NetBeans/ruby2/nb_test_mediator.rb:279
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` LIMIT 1[0m
+  [4;35;1mNeed Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `needs`[0m
+  [4;36;1mTagging Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mNeed Create (0.2ms)[0m   [0;1mINSERT INTO `needs` (`title`, `description`, `user_id`) VALUES('title', 'description', 1)[0m
+  [4;35;1mTagging Load (0.3ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 11 AND `taggings`.taggable_type = 'Need') [0m
+  [4;36;1mTag Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `tags`[0m
+  [4;35;1mTag Load (0.2ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'foo') LIMIT 1[0m
+  [4;36;1mTag Create (0.2ms)[0m   [0;1mINSERT INTO `tags` (`name`, `taggings_count`) VALUES('foo', 0)[0m
+  [4;35;1mTagging Create (0.3ms)[0m   [0mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(11, 'Need', 11, NULL)[0m
+  [4;36;1mTag Load (0.4ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`id` = 11) [0m
+  [4;35;1mTag Update (0.3ms)[0m   [0mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 11) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mTag Load (0.4ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'foo') LIMIT 1[0m
+REQUESTING PAGE: GET /tags/11 with {} and HTTP headers {}
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-04-16 13:05:27) [GET]
+  Parameters: {"id"=>"11"}
+  [4;36;1mTag Load (0.3ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`id` = 11) [0m
+  [4;35;1mTagging Load (0.2ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.tag_id = 11) [0m
+  [4;36;1mNeed Load (0.2ms)[0m   [0;1mSELECT * FROM `needs` WHERE (`needs`.`id` = 11) [0m
+Rendering tags/show
+Completed in 7ms (View: 3, DB: 24) | 200 OK [http://www.example.com/tags/11]
+  [4;35;1mSQL (20.0ms)[0m   [0mROLLBACK[0m
+Unable to load roles_user, underlying cause no such file to load -- roles_user 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+/Users/superchris/dev/rails/splogna/test/test_helper.rb:35
+./test/unit/helpers/my_splogna_helper_test.rb:1:in `require'
+./test/unit/helpers/my_splogna_helper_test.rb:1
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5:in `load'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5
+Unable to load roles_user, underlying cause no such file to load -- roles_user 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/unit/../test_helper.rb:35
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+./test/unit/need_test.rb:1
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:147:in `load'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mNeed Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `needs`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mNeed Create (0.4ms)[0m   [0;1mINSERT INTO `needs` (`title`, `description`, `user_id`) VALUES('a title', 'a description', NULL)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mNeed Load (0.3ms)[0m   [0;1mSELECT * FROM `needs` WHERE (`needs`.`id` = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Exists (0.9ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quire') LIMIT 1[0m
+  [4;35;1mUser Exists (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quire@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`name`, `salt`, `updated_at`, `activated_at`, `crypted_password`, `remember_token_expires_at`, `activation_code`, `remember_token`, `login`, `email`, `created_at`) VALUES('', '96d0d89d311049af3d65107883341e059f39fecb', '2009-04-16 17:07:33', NULL, 'b72c77684c7796cae47ca61acca764770fbe6c44', NULL, '2411d8e6f744ff373d4fcb89db370120da678e4b', NULL, 'quire', 'quire@example.com', '2009-04-16 17:07:33')[0m
+Sent mail to quire@example.com
+
+Date: Thu, 16 Apr 2009 13:07:33 -0400
+From: admin
+To: quire@example.com
+Subject: [Splogna] Please activate your new account
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Your account has been created.
+
+  Username: quire
+  Password: quire69
+
+Visit this url to activate your account:
+
+  http://www.splogna.com/activate/2411d8e6f744ff373d4fcb89db370120da678e4b
+  [4;35;1mSQL (0.2ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mNeed Create (0.2ms)[0m   [0mINSERT INTO `needs` (`title`, `description`, `user_id`) VALUES('title', 'description', 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mNeed Load (0.2ms)[0m   [0mSELECT * FROM `needs` WHERE (`needs`.`id` = 2) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quire') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quire@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `salt`, `updated_at`, `activated_at`, `crypted_password`, `remember_token_expires_at`, `activation_code`, `remember_token`, `login`, `email`, `created_at`) VALUES('', '98e7032b523549725fed3c7796f3adf457fd8f30', '2009-04-16 17:07:33', NULL, 'a85628a183cd7824091ece1b515696639a166e0a', NULL, 'f0f93ca1ba108a70e2f86023bf5f66775c3a0aa6', NULL, 'quire', 'quire@example.com', '2009-04-16 17:07:33')[0m
+Sent mail to quire@example.com
+
+Date: Thu, 16 Apr 2009 13:07:33 -0400
+From: admin
+To: quire@example.com
+Subject: [Splogna] Please activate your new account
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Your account has been created.
+
+  Username: quire
+  Password: quire69
+
+Visit this url to activate your account:
+
+  http://www.splogna.com/activate/f0f93ca1ba108a70e2f86023bf5f66775c3a0aa6
+  [4;36;1mSQL (0.3ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Exists (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quire') LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quire@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `salt`, `updated_at`, `activated_at`, `crypted_password`, `remember_token_expires_at`, `activation_code`, `remember_token`, `login`, `email`, `created_at`) VALUES('', '93a67e5ae360b37d3c7bb8ae7808f0e2b568a5cc', '2009-04-16 17:07:33', NULL, '7047e44696e1f55a772414c0a067c27b6f7010bb', NULL, '8bdbab1daec6cd25920b837b9185e41d28d970ca', NULL, 'quire', 'quire@example.com', '2009-04-16 17:07:33')[0m
+Sent mail to quire@example.com
+
+Date: Thu, 16 Apr 2009 13:07:33 -0400
+From: admin
+To: quire@example.com
+Subject: [Splogna] Please activate your new account
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Your account has been created.
+
+  Username: quire
+  Password: quire69
+
+Visit this url to activate your account:
+
+  http://www.splogna.com/activate/8bdbab1daec6cd25920b837b9185e41d28d970ca
+  [4;36;1mSQL (0.3ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Exists (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quentin2' AND `users`.id <> 1) LIMIT 1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quentin@example.com' AND `users`.id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `login` = 'quentin2', `updated_at` = '2009-04-16 17:07:33' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (login = 'quentin2' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `remember_token_expires_at` = '2009-04-30 17:07:33', `remember_token` = '6b57f87a6b52d534ba7f21611c4b880dd40ca750', `updated_at` = '2009-04-16 17:07:33' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.6ms)[0m   [0mUPDATE `users` SET `remember_token_expires_at` = '2009-04-23 17:07:33', `remember_token` = '3680dc9eee73e9dc94ea56472f0a5735d15e8b07', `updated_at` = '2009-04-16 17:07:33' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `remember_token_expires_at` = '2009-04-23 17:07:33', `remember_token` = '70aa2499cb6fd49b0622a074fdb4c5f326ae6135', `updated_at` = '2009-04-16 17:07:33' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quire') LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` IS NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` IS NULL) LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quire@example.com') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quire') LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quire@example.com') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quire') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quire@example.com') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quentin' AND `users`.id <> 1) LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quentin@example.com' AND `users`.id <> 1) LIMIT 1[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `crypted_password` = 'de914bc99609ab936f9252e078197824445f9168', `updated_at` = '2009-04-16 17:07:34' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `remember_token_expires_at` = '2009-04-30 17:07:34', `remember_token` = '34af139adeb9dc11bbb35cf9e23413b5bcfee00c', `updated_at` = '2009-04-16 17:07:34' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `remember_token_expires_at` = '2009-04-30 17:07:34', `remember_token` = 'bf64162c08a1a5074155a3ec1430c735bdac1e8f', `updated_at` = '2009-04-16 17:07:34' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `remember_token_expires_at` = NULL, `remember_token` = NULL, `updated_at` = '2009-04-16 17:07:34' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mNeed Create (0.2ms)[0m   [0mINSERT INTO `needs` (`title`, `description`, `user_id`) VALUES('title', 'description', 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Exists (1.1ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quentin' AND `users`.id <> 1) LIMIT 1[0m
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quentin@example.com' AND `users`.id <> 1) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `needs` WHERE (`needs`.user_id = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+Unable to load roles_user, underlying cause no such file to load -- roles_user 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/functional/../test_helper.rb:35
+./test/functional/sessions_controller_test.rb:1:in `require'
+./test/functional/sessions_controller_test.rb:1
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5:in `load'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5
+Unable to load roles_user, underlying cause no such file to load -- roles_user 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+/Users/superchris/dev/rails/splogna/test/test_helper.rb:35
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+./test/functional/splogna_controller_test.rb:1
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:147:in `load_without_new_constant_marking'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:147:in `load'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-04-16 13:07:36) [GET]
+Redirected to http://test.host/
+Completed in 2ms (DB: 18) | 302 Found [http://test.host/logout]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `remember_token_expires_at` = '2009-04-30 17:07:36', `remember_token` = '704a27bb923d1d23e4507ff7526484c4e562298b', `updated_at` = '2009-04-16 17:07:36' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-04-16 13:07:36) [GET]
+Rendering sessions/new
+Completed in 3ms (View: 3, DB: 1) | 200 OK [http://test.host/login]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`remember_token` = 'invalid_auth_token') LIMIT 1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `remember_token_expires_at` = '2009-04-30 17:07:36', `remember_token` = '6fb9f2882944ec478edbe8992507abd9ab448c5a', `updated_at` = '2009-04-16 17:07:36' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `remember_token_expires_at` = '2009-04-16 17:02:36', `updated_at` = '2009-04-16 17:07:36' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-04-16 13:07:36) [GET]
+Rendering sessions/new
+Completed in 1ms (View: 1, DB: 2) | 200 OK [http://test.host/login]
+  [4;35;1mUser Load (1.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`remember_token` = '6fb9f2882944ec478edbe8992507abd9ab448c5a') LIMIT 1[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-04-16 13:07:36) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"bad password"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+Failed login for 'quentin' from 0.0.0.0 at Thu Apr 16 17:07:36 UTC 2009
+Rendering sessions/new
+Completed in 2ms (View: 1, DB: 3) | 200 OK [http://test.host/session?login=quentin&password=bad+password]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-04-16 13:07:36) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.7ms)[0m   [0mUPDATE `users` SET `remember_token_expires_at` = NULL, `remember_token` = NULL, `updated_at` = '2009-04-16 17:07:36' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/
+Completed in 4ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey]
+  [4;35;1mSQL (27.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `remember_token_expires_at` = '2009-04-30 17:07:36', `remember_token` = '5aa2826b62c7cea8bb7f6ef9bfd5cd981d4a73fc', `updated_at` = '2009-04-16 17:07:36' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-04-16 13:07:36) [GET]
+Rendering sessions/new
+Completed in 2ms (View: 1, DB: 29) | 200 OK [http://test.host/login]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`remember_token` = '5aa2826b62c7cea8bb7f6ef9bfd5cd981d4a73fc') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `remember_token_expires_at` = NULL, `remember_token` = NULL, `updated_at` = '2009-04-16 17:07:36' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-04-16 13:07:36) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 2) | 302 Found [http://test.host/logout]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-04-16 13:07:36) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"0"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `remember_token_expires_at` = NULL, `remember_token` = NULL, `updated_at` = '2009-04-16 17:07:36' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=0]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-04-16 13:07:36) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"1"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE `users` SET `remember_token_expires_at` = '2009-04-30 17:07:36', `remember_token` = 'ef6c4166a0ac1ce33c18e2e1a5e8162f5d876619', `updated_at` = '2009-04-16 17:07:36' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/
+Completed in 5ms (DB: 2) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=1]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (login = 'aaron' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+
+
+Processing UsersController#activate (for 0.0.0.0 at 2009-04-16 13:07:36) [GET]
+  Parameters: {"activation_code"=>"1b6453892473a467d07372d45eb05abc2031647a"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`activation_code` = '1b6453892473a467d07372d45eb05abc2031647a') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE `users` SET `activated_at` = '2009-04-16 17:07:36', `activation_code` = NULL, `updated_at` = '2009-04-16 17:07:36' WHERE `id` = 2[0m
+Sent mail to aaron@example.com
+
+Date: Thu, 16 Apr 2009 13:07:36 -0400
+From: admin
+To: aaron@example.com
+Subject: [Splogna] Your account has been activated!
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+aaron, your account has been activated.  Welcome aboard!
+
+  http://www.splogna.com/
+  [4;35;1mSQL (0.2ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/login
+Completed in 9ms (DB: 3) | 302 Found [http://test.host/activate/1b6453892473a467d07372d45eb05abc2031647a]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (login = 'aaron' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-04-16 13:07:36) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "login"=>"quire", "password"=>"quire69", "email"=>"quire@example.com"}}
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Exists (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quire') LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quire@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`name`, `salt`, `updated_at`, `activated_at`, `crypted_password`, `remember_token_expires_at`, `activation_code`, `remember_token`, `login`, `email`, `created_at`) VALUES('', 'd45b6227c0e2cce19081baebe69cc59e4aa0e5a7', '2009-04-16 17:07:36', NULL, '719d832e6cf1124cd08f32271023cf0cf02ac250', NULL, 'd777caa3cf9f58db53fd484a3cf95d9b6a748e08', NULL, 'quire', 'quire@example.com', '2009-04-16 17:07:36')[0m
+Sent mail to quire@example.com
+
+Date: Thu, 16 Apr 2009 13:07:36 -0400
+From: admin
+To: quire@example.com
+Subject: [Splogna] Please activate your new account
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Your account has been created.
+
+  Username: quire
+  Password: quire69
+
+Visit this url to activate your account:
+
+  http://www.splogna.com/activate/d777caa3cf9f58db53fd484a3cf95d9b6a748e08
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/
+Completed in 17ms (DB: 4) | 302 Found [http://test.host/register?user%5Bemail%5D=quire%40example.com&user%5Blogin%5D=quire&user%5Bpassword%5D=quire69&user%5Bpassword_confirmation%5D=quire69]
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing UsersController#activate (for 0.0.0.0 at 2009-04-16 13:07:36) [GET]
+  Parameters: {"activation_code"=>""}
+Redirected to http://test.host/
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/activate/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing UsersController#activate (for 0.0.0.0 at 2009-04-16 13:07:36) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/activate]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-04-16 13:07:36) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "login"=>"quire", "password"=>"quire69", "email"=>nil}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Exists (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quire') LIMIT 1[0m
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` IS NULL) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendering users/new
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://test.host/register?user%5Bemail%5D=&user%5Blogin%5D=quire&user%5Bpassword%5D=quire69&user%5Bpassword_confirmation%5D=quire69]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-04-16 13:07:36) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "login"=>nil, "password"=>"quire69", "email"=>"quire@example.com"}}
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Exists (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` IS NULL) LIMIT 1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quire@example.com') LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendering users/new
+Completed in 8ms (View: 2, DB: 2) | 200 OK [http://test.host/register?user%5Bemail%5D=quire%40example.com&user%5Blogin%5D=&user%5Bpassword%5D=quire69&user%5Bpassword_confirmation%5D=quire69]
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-04-16 13:07:36) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>nil, "login"=>"quire", "password"=>"quire69", "email"=>"quire@example.com"}}
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Exists (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quire') LIMIT 1[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quire@example.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendering users/new
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://test.host/register?user%5Bemail%5D=quire%40example.com&user%5Blogin%5D=quire&user%5Bpassword%5D=quire69&user%5Bpassword_confirmation%5D=]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-04-16 13:07:36) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "login"=>"quire", "password"=>nil, "email"=>"quire@example.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Exists (1.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quire') LIMIT 1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quire@example.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendering users/new
+Completed in 9ms (View: 2, DB: 2) | 200 OK [http://test.host/register?user%5Bemail%5D=quire%40example.com&user%5Blogin%5D=quire&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=quire69]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-04-16 13:07:36) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "login"=>"quire", "password"=>"quire69", "email"=>"quire@example.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'quire') LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'quire@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `salt`, `updated_at`, `activated_at`, `crypted_password`, `remember_token_expires_at`, `activation_code`, `remember_token`, `login`, `email`, `created_at`) VALUES('', '218e2ff1f9216a438bde35220f539f2353632de6', '2009-04-16 17:07:36', NULL, 'f0ce74674b87ce0f9de952264f5851a9d65de88b', NULL, 'e2f80f32ea9378b8a15d5f75961a0344f5cf06ec', NULL, 'quire', 'quire@example.com', '2009-04-16 17:07:36')[0m
+Sent mail to quire@example.com
+
+Date: Thu, 16 Apr 2009 13:07:36 -0400
+From: admin
+To: quire@example.com
+Subject: [Splogna] Please activate your new account
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Your account has been created.
+
+  Username: quire
+  Password: quire69
+
+Visit this url to activate your account:
+
+  http://www.splogna.com/activate/e2f80f32ea9378b8a15d5f75961a0344f5cf06ec
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/
+Completed in 9ms (DB: 1) | 302 Found [http://test.host/register?user%5Bemail%5D=quire%40example.com&user%5Blogin%5D=quire&user%5Bpassword%5D=quire69&user%5Bpassword_confirmation%5D=quire69]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mROLLBACK[0m
+Unable to load roles_user, underlying cause no such file to load -- roles_user 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/Users/superchris/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/Users/superchris/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/integration/../test_helper.rb:35
+./test/integration/home_page_test.rb:1:in `require'
+./test/integration/home_page_test.rb:1
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5:in `load'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering sessions/new
+Completed in 5ms (View: 3, DB: 13) | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /session with {"commit"=>"Log in", "password"=>"not monkey", "login"=>"quentin"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-04-16 13:07:38) [POST]
+  Parameters: {"commit"=>"Log in", "password"=>"not monkey", "login"=>"quentin"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+Failed login for 'quentin' from 127.0.0.1 at Thu Apr 16 17:07:38 UTC 2009
+Rendering sessions/new
+Completed in 40ms (View: 1, DB: 0) | 200 OK [http://www.example.com/session]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering sessions/new
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /session with {"commit"=>"Log in", "password"=>"monkey", "login"=>"quentin"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-04-16 13:07:38) [POST]
+  Parameters: {"commit"=>"Log in", "password"=>"monkey", "login"=>"quentin"}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `remember_token_expires_at` = NULL, `remember_token` = NULL, `updated_at` = '2009-04-16 17:07:38' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 4ms (DB: 1) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing SplognaController#index (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering splogna/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mTag Load (0.4ms)[0m   [0;1mSELECT * FROM `tags` ORDER BY taggings_count DESC LIMIT 100[0m
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing SplognaController#index (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering splogna/index
+  [4;35;1mTag Load (0.3ms)[0m   [0mSELECT * FROM `tags` ORDER BY taggings_count DESC LIMIT 100[0m
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://www.example.com/]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering sessions/new
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /session with {"commit"=>"Log in", "password"=>"monkey", "login"=>"quentin"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-04-16 13:07:38) [POST]
+  Parameters: {"commit"=>"Log in", "password"=>"monkey", "login"=>"quentin"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `remember_token_expires_at` = NULL, `remember_token` = NULL, `updated_at` = '2009-04-16 17:07:38' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 3ms (DB: 1) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing SplognaController#index (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering splogna/index
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mTag Load (0.2ms)[0m   [0mSELECT * FROM `tags` ORDER BY taggings_count DESC LIMIT 100[0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing SplognaController#index (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering splogna/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mTag Load (0.3ms)[0m   [0mSELECT * FROM `tags` ORDER BY taggings_count DESC LIMIT 100[0m
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://www.example.com/]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering sessions/new
+Completed in 1ms (View: 1, DB: 1) | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /session with {"commit"=>"Log in", "password"=>"monkey", "login"=>"quentin"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-04-16 13:07:38) [POST]
+  Parameters: {"commit"=>"Log in", "password"=>"monkey", "login"=>"quentin"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `remember_token_expires_at` = NULL, `remember_token` = NULL, `updated_at` = '2009-04-16 17:07:38' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 4ms (DB: 1) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing SplognaController#index (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering splogna/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mTag Load (0.3ms)[0m   [0mSELECT * FROM `tags` ORDER BY taggings_count DESC LIMIT 100[0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /needs/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing NeedsController#new (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+  [4;36;1mNeed Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `needs`[0m
+Rendering needs/new
+  [4;35;1mTagging Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `taggings`[0m
+Completed in 12ms (View: 5, DB: 4) | 200 OK [http://www.example.com/needs/new]
+REQUESTING PAGE: POST /needs with {"need"=>{"title"=>"A title", "description"=>"A description", "tag_list"=>""}, "commit"=>"Save"} and HTTP headers {"HTTP_REFERER"=>"/needs/new"}
+
+
+Processing NeedsController#create (for 127.0.0.1 at 2009-04-16 13:07:38) [POST]
+  Parameters: {"need"=>{"title"=>"A title", "description"=>"A description", "tag_list"=>""}, "commit"=>"Save"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mNeed Create (0.2ms)[0m   [0;1mINSERT INTO `needs` (`title`, `description`, `user_id`) VALUES('A title', 'A description', 1)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/my_splogna
+Completed in 7ms (DB: 1) | 302 Found [http://www.example.com/needs]
+REQUESTING PAGE: GET http://www.example.com/my_splogna with {} and HTTP headers {"HTTP_REFERER"=>"/needs"}
+
+
+Processing MySplognaController#index (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering my_splogna/index
+  [4;35;1mNeed Load (0.3ms)[0m   [0mSELECT * FROM `needs` WHERE (`needs`.user_id = 1) [0m
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://www.example.com/my_splogna]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering sessions/new
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /session with {"commit"=>"Log in", "password"=>"monkey", "login"=>"quentin"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-04-16 13:07:38) [POST]
+  Parameters: {"commit"=>"Log in", "password"=>"monkey", "login"=>"quentin"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `remember_token_expires_at` = NULL, `remember_token` = NULL, `updated_at` = '2009-04-16 17:07:38' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 4ms (DB: 1) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing SplognaController#index (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering splogna/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mTag Load (0.3ms)[0m   [0mSELECT * FROM `tags` ORDER BY taggings_count DESC LIMIT 100[0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /needs/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing NeedsController#new (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering needs/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/needs/new]
+REQUESTING PAGE: POST /needs with {"need"=>{"title"=>"A title", "description"=>"A description", "tag_list"=>"car furniture apples"}, "commit"=>"Save"} and HTTP headers {"HTTP_REFERER"=>"/needs/new"}
+
+
+Processing NeedsController#create (for 127.0.0.1 at 2009-04-16 13:07:38) [POST]
+  Parameters: {"need"=>{"title"=>"A title", "description"=>"A description", "tag_list"=>"car furniture apples"}, "commit"=>"Save"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mNeed Create (0.2ms)[0m   [0;1mINSERT INTO `needs` (`title`, `description`, `user_id`) VALUES('A title', 'A description', 1)[0m
+  [4;35;1mTagging Load (0.3ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 5 AND `taggings`.taggable_type = 'Need') [0m
+  [4;36;1mTag Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `tags`[0m
+  [4;35;1mTag Load (0.2ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'car') LIMIT 1[0m
+  [4;36;1mTag Create (0.2ms)[0m   [0;1mINSERT INTO `tags` (`name`, `taggings_count`) VALUES('car', 0)[0m
+  [4;35;1mTagging Create (0.3ms)[0m   [0mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(1, 'Need', 5, NULL)[0m
+  [4;36;1mTag Load (0.2ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`id` = 1) [0m
+  [4;35;1mTag Update (0.3ms)[0m   [0mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 1) [0m
+  [4;36;1mTag Load (0.2ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`name` = 'furniture') LIMIT 1[0m
+  [4;35;1mTag Create (0.2ms)[0m   [0mINSERT INTO `tags` (`name`, `taggings_count`) VALUES('furniture', 0)[0m
+  [4;36;1mTagging Create (0.2ms)[0m   [0;1mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(2, 'Need', 5, NULL)[0m
+  [4;35;1mTag Load (0.2ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`id` = 2) [0m
+  [4;36;1mTag Update (0.2ms)[0m   [0;1mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 2) [0m
+  [4;35;1mTag Load (0.2ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'apples') LIMIT 1[0m
+  [4;36;1mTag Create (0.2ms)[0m   [0;1mINSERT INTO `tags` (`name`, `taggings_count`) VALUES('apples', 0)[0m
+  [4;35;1mTagging Create (0.2ms)[0m   [0mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(3, 'Need', 5, NULL)[0m
+  [4;36;1mTag Load (0.2ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`id` = 3) [0m
+  [4;35;1mTag Update (0.2ms)[0m   [0mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 3) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/my_splogna
+Completed in 27ms (DB: 6) | 302 Found [http://www.example.com/needs]
+REQUESTING PAGE: GET http://www.example.com/my_splogna with {} and HTTP headers {"HTTP_REFERER"=>"/needs"}
+
+
+Processing MySplognaController#index (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering my_splogna/index
+  [4;36;1mNeed Load (0.2ms)[0m   [0;1mSELECT * FROM `needs` WHERE (`needs`.user_id = 1) [0m
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://www.example.com/my_splogna]
+  [4;35;1mSQL (1.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering sessions/new
+Completed in 1ms (View: 1, DB: 2) | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /session with {"commit"=>"Log in", "password"=>"monkey", "login"=>"quentin"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-04-16 13:07:38) [POST]
+  Parameters: {"commit"=>"Log in", "password"=>"monkey", "login"=>"quentin"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `remember_token_expires_at` = NULL, `remember_token` = NULL, `updated_at` = '2009-04-16 17:07:38' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 6ms (DB: 1) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing SplognaController#index (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering splogna/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mTag Load (0.7ms)[0m   [0;1mSELECT * FROM `tags` ORDER BY taggings_count DESC LIMIT 100[0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /needs/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing NeedsController#new (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering needs/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/needs/new]
+REQUESTING PAGE: POST /needs with {"need"=>{"title"=>"A title", "description"=>"A description", "tag_list"=>"car furniture apples"}, "commit"=>"Save"} and HTTP headers {"HTTP_REFERER"=>"/needs/new"}
+
+
+Processing NeedsController#create (for 127.0.0.1 at 2009-04-16 13:07:38) [POST]
+  Parameters: {"need"=>{"title"=>"A title", "description"=>"A description", "tag_list"=>"car furniture apples"}, "commit"=>"Save"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mNeed Create (0.4ms)[0m   [0mINSERT INTO `needs` (`title`, `description`, `user_id`) VALUES('A title', 'A description', 1)[0m
+  [4;36;1mTagging Load (0.5ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 6 AND `taggings`.taggable_type = 'Need') [0m
+  [4;35;1mTag Load (0.4ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'car') LIMIT 1[0m
+  [4;36;1mTag Create (1.0ms)[0m   [0;1mINSERT INTO `tags` (`name`, `taggings_count`) VALUES('car', 0)[0m
+  [4;35;1mTagging Create (0.3ms)[0m   [0mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(4, 'Need', 6, NULL)[0m
+  [4;36;1mTag Load (0.3ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`id` = 4) [0m
+  [4;35;1mTag Update (0.2ms)[0m   [0mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 4) [0m
+  [4;36;1mTag Load (0.3ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`name` = 'furniture') LIMIT 1[0m
+  [4;35;1mTag Create (0.3ms)[0m   [0mINSERT INTO `tags` (`name`, `taggings_count`) VALUES('furniture', 0)[0m
+  [4;36;1mTagging Create (0.3ms)[0m   [0;1mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(5, 'Need', 6, NULL)[0m
+  [4;35;1mTag Load (0.3ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`id` = 5) [0m
+  [4;36;1mTag Update (0.2ms)[0m   [0;1mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 5) [0m
+  [4;35;1mTag Load (0.4ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'apples') LIMIT 1[0m
+  [4;36;1mTag Create (0.3ms)[0m   [0;1mINSERT INTO `tags` (`name`, `taggings_count`) VALUES('apples', 0)[0m
+  [4;35;1mTagging Create (0.7ms)[0m   [0mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(6, 'Need', 6, NULL)[0m
+  [4;36;1mTag Load (0.5ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`id` = 6) [0m
+  [4;35;1mTag Update (0.3ms)[0m   [0mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 6) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/my_splogna
+Completed in 38ms (DB: 8) | 302 Found [http://www.example.com/needs]
+REQUESTING PAGE: GET http://www.example.com/my_splogna with {} and HTTP headers {"HTTP_REFERER"=>"/needs"}
+
+
+Processing MySplognaController#index (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering my_splogna/index
+  [4;36;1mNeed Load (0.4ms)[0m   [0;1mSELECT * FROM `needs` WHERE (`needs`.user_id = 1) [0m
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://www.example.com/my_splogna]
+REQUESTING PAGE: GET /needs/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/my_splogna"}
+
+
+Processing NeedsController#new (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering needs/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/needs/new]
+REQUESTING PAGE: POST /needs with {"need"=>{"title"=>"Another title", "description"=>"A description", "tag_list"=>"car furniture apples"}, "commit"=>"Save"} and HTTP headers {"HTTP_REFERER"=>"/needs/new"}
+
+
+Processing NeedsController#create (for 127.0.0.1 at 2009-04-16 13:07:38) [POST]
+  Parameters: {"need"=>{"title"=>"Another title", "description"=>"A description", "tag_list"=>"car furniture apples"}, "commit"=>"Save"}
+  [4;35;1mUser Load (1.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mNeed Create (0.3ms)[0m   [0mINSERT INTO `needs` (`title`, `description`, `user_id`) VALUES('Another title', 'A description', 1)[0m
+  [4;36;1mTagging Load (1.6ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 7 AND `taggings`.taggable_type = 'Need') [0m
+  [4;35;1mTag Load (6.8ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'car') LIMIT 1[0m
+  [4;36;1mTagging Create (2.0ms)[0m   [0;1mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(4, 'Need', 7, NULL)[0m
+  [4;35;1mTag Load (0.2ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`id` = 4) [0m
+  [4;36;1mTag Update (0.6ms)[0m   [0;1mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 4) [0m
+  [4;35;1mTag Load (0.4ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'furniture') LIMIT 1[0m
+  [4;36;1mTagging Create (1.8ms)[0m   [0;1mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(5, 'Need', 7, NULL)[0m
+  [4;35;1mTag Load (0.3ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`id` = 5) [0m
+  [4;36;1mTag Update (0.2ms)[0m   [0;1mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 5) [0m
+  [4;35;1mTag Load (0.4ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'apples') LIMIT 1[0m
+  [4;36;1mTagging Create (0.4ms)[0m   [0;1mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(6, 'Need', 7, NULL)[0m
+  [4;35;1mTag Load (0.5ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`id` = 6) [0m
+  [4;36;1mTag Update (0.3ms)[0m   [0;1mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 6) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/my_splogna
+Completed in 118ms (DB: 19) | 302 Found [http://www.example.com/needs]
+REQUESTING PAGE: GET http://www.example.com/my_splogna with {} and HTTP headers {"HTTP_REFERER"=>"/needs"}
+
+
+Processing MySplognaController#index (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+  [4;36;1mUser Load (1.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering my_splogna/index
+  [4;35;1mNeed Load (0.4ms)[0m   [0mSELECT * FROM `needs` WHERE (`needs`.user_id = 1) [0m
+Completed in 8ms (View: 5, DB: 2) | 200 OK [http://www.example.com/my_splogna]
+  [4;36;1mSQL (1.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering sessions/new
+Completed in 1ms (View: 1, DB: 1) | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /session with {"commit"=>"Log in", "password"=>"monkey", "login"=>"quentin"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-04-16 13:07:38) [POST]
+  Parameters: {"commit"=>"Log in", "password"=>"monkey", "login"=>"quentin"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (login = 'quentin' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mSQL (4.4ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE `users` SET `remember_token_expires_at` = NULL, `remember_token` = NULL, `updated_at` = '2009-04-16 17:07:38' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 9ms (DB: 5) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing SplognaController#index (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+Rendering splogna/index
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT * FROM `tags` ORDER BY taggings_count DESC LIMIT 100[0m
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://www.example.com/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mNeed Create (0.3ms)[0m   [0mINSERT INTO `needs` (`title`, `description`, `user_id`) VALUES('a new title', 'description', NULL)[0m
+  [4;36;1mTagging Load (0.6ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 8 AND `taggings`.taggable_type = 'Need') [0m
+  [4;35;1mTag Load (0.3ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'tag1') LIMIT 1[0m
+  [4;36;1mTag Create (0.3ms)[0m   [0;1mINSERT INTO `tags` (`name`, `taggings_count`) VALUES('tag1', 0)[0m
+  [4;35;1mTagging Create (0.4ms)[0m   [0mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(7, 'Need', 8, NULL)[0m
+  [4;36;1mTag Load (0.6ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`id` = 7) [0m
+  [4;35;1mTag Update (0.3ms)[0m   [0mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 7) [0m
+  [4;36;1mTag Load (0.4ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`name` = 'tag2') LIMIT 1[0m
+  [4;35;1mTag Create (0.5ms)[0m   [0mINSERT INTO `tags` (`name`, `taggings_count`) VALUES('tag2', 0)[0m
+  [4;36;1mTagging Create (1.6ms)[0m   [0;1mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(8, 'Need', 8, NULL)[0m
+  [4;35;1mTag Load (0.2ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`id` = 8) [0m
+  [4;36;1mTag Update (0.2ms)[0m   [0;1mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 8) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /needs/8 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing NeedsController#show (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mNeed Load (0.3ms)[0m   [0;1mSELECT * FROM `needs` WHERE (`needs`.`id` = 8) [0m
+Rendering needs/show
+  [4;35;1mTag Load (0.5ms)[0m   [0mSELECT DISTINCT tags.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Need') AND (`taggings`.taggable_id = 8)) ORDER BY LOWER(name) asc[0m
+Completed in 3ms (View: 2, DB: 7) | 200 OK [http://www.example.com/needs/8]
+  [4;36;1mSQL (1.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mNeed Create (0.3ms)[0m   [0;1mINSERT INTO `needs` (`title`, `description`, `user_id`) VALUES('title', 'description', 1)[0m
+  [4;35;1mTagging Load (0.4ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 9 AND `taggings`.taggable_type = 'Need') [0m
+  [4;36;1mTag Load (0.2ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`name` = 'foo') LIMIT 1[0m
+  [4;35;1mTag Create (0.3ms)[0m   [0mINSERT INTO `tags` (`name`, `taggings_count`) VALUES('foo', 0)[0m
+  [4;36;1mTagging Create (0.2ms)[0m   [0;1mINSERT INTO `taggings` (`tag_id`, `taggable_type`, `taggable_id`, `user_id`) VALUES(9, 'Need', 9, NULL)[0m
+  [4;35;1mTag Load (0.2ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`id` = 9) [0m
+  [4;36;1mTag Update (0.2ms)[0m   [0;1mUPDATE `tags` SET `taggings_count` = COALESCE(`taggings_count`, 0) + 1 WHERE (`id` = 9) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mTag Load (0.2ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`name` = 'foo') LIMIT 1[0m
+REQUESTING PAGE: GET /tags/9 with {} and HTTP headers {}
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-04-16 13:07:38) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mTag Load (0.3ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`id` = 9) [0m
+  [4;36;1mTagging Load (0.2ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.tag_id = 9) [0m
+  [4;35;1mNeed Load (0.2ms)[0m   [0mSELECT * FROM `needs` WHERE (`needs`.`id` = 9) [0m
+Rendering tags/show
+Completed in 6ms (View: 2, DB: 5) | 200 OK [http://www.example.com/tags/9]
+  [4;36;1mSQL (4.3ms)[0m   [0;1mROLLBACK[0m

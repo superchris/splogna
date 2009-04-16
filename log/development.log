@@ -1075,3 +1075,73 @@ Completed in 19ms (View: 13, DB: 5) | 200 OK [http://localhost/]
   [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090410150525')[0m
   [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090410153530')[0m
   [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090414200648')[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SplognaController#index (for 127.0.0.1 at 2009-04-16 13:06:02) [GET]
+Rendering splogna/index
+  [4;35;1mTag Load (59.3ms)[0m   [0mSELECT * FROM `tags` ORDER BY taggings_count DESC LIMIT 100[0m
+  [4;36;1mTag Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `tags`[0m
+Completed in 117ms (View: 53, DB: 64) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TagsController#show (for 127.0.0.1 at 2009-04-16 13:06:05) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mTag Load (0.5ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`id` = 2) [0m
+  [4;35;1mTagging Load (5.4ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.tag_id = 2) [0m
+  [4;36;1mTagging Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+  [4;35;1mNeed Columns (19.7ms)[0m   [0mSHOW FIELDS FROM `needs`[0m
+  [4;36;1mNeed Load (0.7ms)[0m   [0;1mSELECT * FROM `needs` WHERE (`needs`.`id` = 1) [0m
+  [4;35;1mNeed Load (0.2ms)[0m   [0mSELECT * FROM `needs` WHERE (`needs`.`id` = 2) [0m
+  [4;36;1mNeed Load (0.2ms)[0m   [0;1mSELECT * FROM `needs` WHERE (`needs`.`id` = 3) [0m
+Rendering tags/show
+Completed in 60ms (View: 7, DB: 29) | 200 OK [http://localhost/tags/2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NeedsController#show (for 127.0.0.1 at 2009-04-16 13:06:10) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mNeed Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `needs`[0m
+  [4;35;1mNeed Load (1.1ms)[0m   [0mSELECT * FROM `needs` WHERE (`needs`.`id` = 3) [0m
+Rendering needs/show
+  [4;36;1mTag Load (0.6ms)[0m   [0;1mSELECT DISTINCT tags.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Need') AND (`taggings`.taggable_id = 3)) ORDER BY LOWER(name) asc[0m
+Completed in 16ms (View: 6, DB: 4) | 200 OK [http://localhost/needs/3]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (39.8ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (102.8ms)[0m   [0;1mDROP DATABASE IF EXISTS `splogna_test`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCREATE DATABASE `splogna_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (144.6ms)[0m   [0;1mCREATE TABLE `needs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `description` varchar(255), `user_id` int(11)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (119.6ms)[0m   [0;1mCREATE TABLE `roles` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (75.2ms)[0m   [0;1mCREATE TABLE `roles_users` (`role_id` int(11), `user_id` int(11)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (90.4ms)[0m   [0mCREATE INDEX `index_roles_users_on_role_id` ON `roles_users` (`role_id`)[0m
+  [4;36;1mSQL (91.4ms)[0m   [0;1mCREATE INDEX `index_roles_users_on_user_id` ON `roles_users` (`user_id`)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (94.9ms)[0m   [0;1mCREATE TABLE `taggings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `tag_id` int(11), `taggable_id` int(11), `taggable_type` varchar(255), `user_id` int(11)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (90.2ms)[0m   [0mCREATE INDEX `index_taggings_on_tag_id_and_taggable_type` ON `taggings` (`tag_id`, `taggable_type`)[0m
+  [4;36;1mSQL (89.1ms)[0m   [0;1mCREATE INDEX `index_taggings_on_taggable_id_and_taggable_type` ON `taggings` (`taggable_id`, `taggable_type`)[0m
+  [4;35;1mSQL (98.6ms)[0m   [0mCREATE INDEX `index_taggings_on_user_id_and_tag_id_and_taggable_type` ON `taggings` (`user_id`, `tag_id`, `taggable_type`)[0m
+  [4;36;1mSQL (89.1ms)[0m   [0;1mCREATE INDEX `index_taggings_on_user_id_and_taggable_id_and_taggable_type` ON `taggings` (`user_id`, `taggable_id`, `taggable_type`)[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (70.5ms)[0m   [0;1mCREATE TABLE `tags` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `taggings_count` int(11) DEFAULT 0 NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (91.6ms)[0m   [0mCREATE INDEX `index_tags_on_name` ON `tags` (`name`)[0m
+  [4;36;1mSQL (77.4ms)[0m   [0;1mCREATE INDEX `index_tags_on_taggings_count` ON `tags` (`taggings_count`)[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (72.4ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(40), `name` varchar(100) DEFAULT '', `email` varchar(100), `crypted_password` varchar(40), `salt` varchar(40), `created_at` datetime, `updated_at` datetime, `remember_token` varchar(40), `remember_token_expires_at` datetime, `activation_code` varchar(40), `activated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (80.0ms)[0m   [0mCREATE UNIQUE INDEX `index_users_on_login` ON `users` (`login`)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (72.4ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (82.4ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090414214304')[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090406211201')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090410150525')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090410153530')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090414200648')[0m

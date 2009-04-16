@@ -1,2 +1,11 @@
-<h1>Tags#show</h1>
-<p>Find me in app/views/tags/show.html.erb</p>
+<h1><%= @tag.name%> </h1>
+<table>
+  <tr>
+    <th>Title</th>
+  </tr>
+  <% @needs.each do |need| %>
+    <tr>
+      <td><%=link_to need.title, need_url(need) %></td>
+    </tr>
+  <% end %>
+</table>
