@@ -11,6 +11,10 @@ class NeedsController < ApplicationController
       redirect_to "/my_splogna"
     end
   end
+
+  def index
+    @needs = Need.search(params[:search])
+  end
   
   def show
     @need = Need.find(params[:id])

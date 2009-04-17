@@ -3,6 +3,7 @@ class MySplognaController < ApplicationController
   
   def index
     @needs = current_user.needs
+    @gots = current_user.gots
   end
 
 end

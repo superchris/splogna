@@ -19,4 +19,15 @@ class HomePageTest < ActionController::IntegrationTest
     assert_not_contain "Sign Up"
     assert_contain "Log Out"
   end
+
+  def test_search
+    need1 = Need.create!(:title => "first title",
+      :description => "something about cars",
+      :user => users(:quentin)
+    )
+    visit "/"
+    fill_in "search", :with => "cars"
+    click_button "Search"
+    assert_contain "first"
+  end
 end
