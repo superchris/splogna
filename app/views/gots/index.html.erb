@@ -1,0 +1,11 @@
+<h1>My Gots</h1>
+<table>
+  <tr>
+    <th>Title</th>
+  </tr>
+  <% @gots.each do |got| %>
+    <tr>
+      <td><%=link_to got.title, got_url(got) %></td>
+    </tr>
+  <% end %>
+</table>
