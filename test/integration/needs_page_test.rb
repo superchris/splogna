@@ -52,4 +52,18 @@ class NeedsPageTest < ActionController::IntegrationTest
     assert_contain "title"
     assert_contain "tag1 tag2"
   end
+
+  def test_respond_to_need
+    need = Need.new(
+      :title => "a new title", :description => "description",
+      :user => users(:quentin))
+    need.save!
+    visit need_path(need)
+    assert_match /Response to: a new title/, field_labeled("Subject").value
+    fill_in "Body", "I'll take care of this"
+    click_button "Send Response"
+    assert_contain "Thanks for responding."
+    assert_contain "1 user(s) has responded to this need."
+    assert_equal 1, need.reload.responses.count
+  end
 end

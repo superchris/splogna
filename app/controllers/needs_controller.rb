@@ -18,6 +18,9 @@ class NeedsController < ApplicationController
   
   def show
     @need = Need.find(params[:id])
+    @message = Message.new(
+      :response_to => @need,
+      :subject => "Response to: #{@need.title}")
   end
 
 end

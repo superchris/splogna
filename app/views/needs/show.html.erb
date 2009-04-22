@@ -1,4 +1,18 @@
+<% flash.each do |key, value|%>
+  <div class="<%=key%>"><%=value %></div>
+<% end %>
 <h1><%=@need.title%></h1>
 <p><%= @need.description %></p>
 <h2>Tags</h2>
 <p><%=@need.tag_list%></p>
+<p><%=@need.responses.count %> user(s) has responded to this need.</p>
+
+<% form_for :message, :url => messages_url do |f| %>
+  <label for="message_subject">Subject</label><br/>
+  <%= f.text_field :subject %><br/>
+  <label for="message_subject">Body</label><br/>
+  <%= f.text_area :body %><br/>
+  <%= f.hidden_field :response_to_id %>
+  <%= f.hidden_field :response_to_type %>
+  <%= submit_tag "Send Response"   %>
+<% end %>
