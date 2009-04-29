@@ -1,0 +1,10 @@
+<% form_for :message, message, :url => messages_url do |f| %>
+  <label for="message_subject">Subject</label><br/>
+  <%= f.text_field :subject %><br/>
+  <label for="message_body">Body</label><br/>
+  <%= f.text_area :body %><br/>
+  <%= f.hidden_field :response_to_id %>
+  <%= f.hidden_field :response_to_type %>
+  <%= f.hidden_field :to_user_id %>
+  <%= submit_tag "Send Response"   %>
+<% end %>

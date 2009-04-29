@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090420204933) do
+ActiveRecord::Schema.define(:version => 20090429203906) do
 
   create_table "gots", :force => true do |t|
     t.string   "title"
@@ -24,9 +24,10 @@ ActiveRecord::Schema.define(:version => 20090420204933) do
     t.text     "body"
     t.integer  "response_to_id"
     t.string   "response_to_type"
-    t.integer  "user_id"
+    t.integer  "from_user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "to_user_id",       :null => false
   end
 
   create_table "needs", :force => true do |t|

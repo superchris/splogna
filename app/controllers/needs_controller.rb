@@ -20,6 +20,7 @@ class NeedsController < ApplicationController
     @need = Need.find(params[:id])
     @message = Message.new(
       :response_to => @need,
+      :to_user => @need.user,
       :subject => "Response to: #{@need.title}")
   end
 

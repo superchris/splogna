@@ -34,7 +34,6 @@ class NeedsPageTest < ActionController::IntegrationTest
     fill_in "Description", :with => "A description"
     fill_in "Tags", :with => "car furniture apples"
     click_button "Save"
-    puts response_body
     assert_contain "A title"
     visit "/needs/new"
     fill_in "Title", :with => "Another title"
@@ -42,6 +41,15 @@ class NeedsPageTest < ActionController::IntegrationTest
     fill_in "Tags", :with => "car furniture apples"
     click_button "Save"
     assert_contain "Another title"
+  end
+
+  def pending_test_needs_paging
+    user = Factory.create(:user)
+    31.times do
+      Factory.create(:need, :user => user)
+    end
+    visit "/needs"
+    assert_contain "Next"
   end
 
   def test_view_need
@@ -62,7 +70,7 @@ class NeedsPageTest < ActionController::IntegrationTest
     assert_match /Response to: a new title/, field_labeled("Subject").value
     fill_in "Body", "I'll take care of this"
     click_button "Send Response"
-    assert_contain "Thanks for responding."
+    assert_contain "Message sent."
     assert_contain "1 user(s) has responded to this need."
     assert_equal 1, need.reload.responses.count
   end

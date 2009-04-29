@@ -3,7 +3,7 @@ require File.dirname(__FILE__) + '/../test_helper'
 class NeedTest < ActiveSupport::TestCase
   fixtures :users
   def test_create
-    need = Need.new :title => "a title", :description => "a description"
+    need = Factory.build(:need)
     need.save!
     assert need.reload
     assert need.created_at

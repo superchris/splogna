@@ -7,12 +7,4 @@
 <p><%=@need.tag_list%></p>
 <p><%=@need.responses.count %> user(s) has responded to this need.</p>
 
-<% form_for :message, :url => messages_url do |f| %>
-  <label for="message_subject">Subject</label><br/>
-  <%= f.text_field :subject %><br/>
-  <label for="message_subject">Body</label><br/>
-  <%= f.text_area :body %><br/>
-  <%= f.hidden_field :response_to_id %>
-  <%= f.hidden_field :response_to_type %>
-  <%= submit_tag "Send Response"   %>
-<% end %>
+<%= render :partial => "messages/form", :locals => {:message => @message} %>

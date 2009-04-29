@@ -26,3 +26,16 @@
   <% end %>
 </table>
 <%= link_to "New Got", new_got_url %>
+<h1>My Messages</h1>
+<table>
+  <tr>
+    <th>Subject</th>
+    <th>Sent At</th>
+  </tr>
+  <% @messages.each do |message| %>
+    <tr>
+      <td><%=link_to message.subject, message_url(message) %></td>
+      <td><%= message.created_at.to_date%></td>
+    </tr>
+  <% end %>
+</table>

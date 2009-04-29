@@ -19,8 +19,9 @@ class User < ActiveRecord::Base
   # ---------------------------------------
   
   
-  
-  
+  has_many :messages_to, :foreign_key => "to_user_id", :class_name => "Message"
+  has_many :messages_from, :foreign_key => "from_user_id", :class_name => "Message"
+
   include Authentication
   include Authentication::ByPassword
   include Authentication::ByCookieToken

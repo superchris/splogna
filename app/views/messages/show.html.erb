@@ -1,0 +1,9 @@
+
+<body>
+<% flash.each do |key, value|%>
+  <div class="<%=key%>"><%=value %></div>
+<% end %>
+  <h2><%= @message.subject %> </h2>
+  <p><%= @message.body %></p>
+  <%= render :partial => "form", :locals => {:message => @reply} %>
+</body>
