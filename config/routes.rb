@@ -4,7 +4,7 @@ Splogna::Application.routes.draw do
   match '/login' => 'sessions#new', :as => :login
   match '/register' => 'users#create', :as => :register
   match '/signup' => 'users#new', :as => :signup
-  match '/activate/:activation_code' => 'users#activate', :as => :activate, :activation_code => 
+  match '/activate/:activation_code' => 'users#activate', :as => :activate
   resources :users
   resource :session
   match '/' => 'splogna#index'
