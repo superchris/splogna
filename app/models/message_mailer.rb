@@ -1,10 +1,11 @@
 class MessageMailer < ActionMailer::Base
-  def message(message)
-    @from = "admin@splogna.com"
-    @subject = message.subject
-    @recipients  = "#{message.to_user.email}"
-    @sent_on = Time.now
-    @body[:message]  = message
+
+  def message_mail(message)
+    @message = message
+    mail(:from => "admin@splogna.com",
+         :to => message.to_user.email,
+         :subject => message.subject)
+
   end
-  
+
 end
