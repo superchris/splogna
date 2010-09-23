@@ -11,3 +11,11 @@ class ActiveSupport::TestCase
 
   # Add more helper methods to be used by all tests here...
 end
+
+require "capybara/rails"
+
+module ActionController
+  class IntegrationTest
+    include Capybara
+  end
+end
