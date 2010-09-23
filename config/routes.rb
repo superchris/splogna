@@ -11,6 +11,9 @@ Splogna::Application.routes.draw do
   resources :needs
   resources :gots
   resources :tags
+
   match '/:controller(/:action(/:id))'
+
+  root :to => "splogna#index"
 end
 
