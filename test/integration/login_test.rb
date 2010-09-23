@@ -8,7 +8,7 @@ class HomePageTest < ActionController::IntegrationTest
     fill_in "Login", :with => "quentin"
     fill_in "Password", :with => "monkey"
     click_button "Log in"
-    assert_contain "Logged in successfully"
+    assert page.has_content? "Logged in successfully"
   end
 
   def test_bad_login
@@ -16,6 +16,6 @@ class HomePageTest < ActionController::IntegrationTest
     fill_in "Login", :with => "quentin"
     fill_in "Password", :with => "not monkey"
     click_button "Log in"
-    assert_not_contain "Logged in successfully"
+    assert page.has_no_content? "Logged in successfully"
   end
 end

@@ -11,7 +11,7 @@ class TagsTest < ActionController::IntegrationTest
     need.save!
     foo_tag = Tag.find_by_name("foo")
     visit tag_path(foo_tag)
-    assert_contain "title"
+    assert page.has_content? "title"
   end
 
 end
