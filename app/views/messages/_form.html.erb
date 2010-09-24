@@ -1,4 +1,4 @@
-<% form_for :message, message, :url => messages_url do |f| %>
+<%= form_for message, :as => :message, :url => messages_url do |f| %>
   <label for="message_subject">Subject</label><br/>
   <%= f.text_field :subject %><br/>
   <label for="message_body">Body</label><br/>
