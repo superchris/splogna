@@ -7,7 +7,6 @@ class Got < ActiveRecord::Base
 
   def self.search(term)
     query_term = "%#{term}%"
-    find(:all, :conditions => ["title like ? or description like ?",
-      query_term, query_term])
+    where(["title like ? or description like ?", query_term, query_term])
   end
 end
