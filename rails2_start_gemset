@@ -1,0 +1,17 @@
+actionmailer -v2.3.2
+actionpack -v2.3.2
+activerecord -v2.3.2
+activerecord-jdbc-adapter -v0.9.7
+activerecord-jdbcmysql-adapter -v0.9.7
+activeresource -v2.3.2
+activesupport -v2.3.2
+factory_girl -v1.3.2
+jdbc-mysql -v5.0.4
+nokogiri -v1.5.0.beta.2
+nokogiri -v1.4.3.1
+rack -v1.2.1
+rack-test -v0.5.4
+rails -v2.3.2
+rake -v0.8.7
+weakling -v0.0.4
+webrat -v0.7.1
