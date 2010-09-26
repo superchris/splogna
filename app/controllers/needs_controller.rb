@@ -1,5 +1,7 @@
 class NeedsController < ApplicationController
 
+  respond_to :html, :xml
+
   def new
     @need = Need.new
   end
@@ -14,6 +16,7 @@ class NeedsController < ApplicationController
 
   def index
     @needs = Need.search(params[:search])
+    respond_with @needs
   end
   
   def show
