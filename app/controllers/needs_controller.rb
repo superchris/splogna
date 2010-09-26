@@ -9,9 +9,8 @@ class NeedsController < ApplicationController
   def create
     @need = Need.new(params[:need])
     @need.user = current_user
-    if @need.save
-      redirect_to "/my_splogna"
-    end
+    @need.save
+    respond_with @need, :location => "/my_splogna"
   end
 
   def index
