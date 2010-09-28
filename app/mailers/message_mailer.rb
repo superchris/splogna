@@ -2,10 +2,8 @@ class MessageMailer < ActionMailer::Base
 
   def message_mail(message)
     @message = message
-    mail(:from => "admin@splogna.com",
-         :to => message.to_user.email,
+    mail(:to => message.to_user.email,
+         :from => "admin@splogna.com",
          :subject => message.subject)
-
   end
-
 end
