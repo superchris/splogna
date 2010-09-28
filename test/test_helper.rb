@@ -19,3 +19,8 @@ module ActionController
     include Capybara
   end
 end
+
+class ActionMailer::TestCase
+  include ActionController::UrlWriter
+  default_url_options[:host] = "http://example.com"
+end
