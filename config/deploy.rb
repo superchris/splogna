@@ -1,3 +1,5 @@
+require 'bundler/capistrano'
+
 set :application, "splogna"
 set :scm, :git
 set :repository,  "git://github.com/superchris/splogna.git"
@@ -38,3 +40,4 @@ namespace :deploy do
   end
 end
 
+set :bundle_flags, "--deployment --quiet --local"
