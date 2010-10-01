@@ -11,3 +11,8 @@ class ActiveSupport::TestCase
 
   # Add more helper methods to be used by all tests here...
 end
+
+class ActionMailer::TestCase
+  include ActionController::UrlWriter
+  default_url_options[:host] = "http://example.com"
+end
