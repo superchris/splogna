@@ -2,3 +2,6 @@ nbproject
 tmp
 log/*
 .idea
+config/database.yml
+db/schema.rb
+*.orig
