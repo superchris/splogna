@@ -8,7 +8,7 @@ class GotsPageTest < ActionController::IntegrationTest
     fill_in "Login", :with => "quentin"
     fill_in "Password", :with => "monkey"
     click_button "Log in"
-    assert_contain "Logged in successfully"
+    assert page.has_content? "Logged in successfully"
   end
   
   def test_create_got
@@ -16,7 +16,7 @@ class GotsPageTest < ActionController::IntegrationTest
     fill_in "Title", :with => "A title"
     fill_in "Description", :with => "A description"
     click_button "Save"
-    assert_contain "A title"
+    assert page.has_content? "A title"
   end
 
 #  def test_create_need_with_tag
@@ -25,7 +25,7 @@ class GotsPageTest < ActionController::IntegrationTest
 #    fill_in "Description", :with => "A description"
 #    fill_in "Tags", :with => "car furniture apples"
 #    click_button "Save"
-#    assert_contain "A title"
+#    assert page.has_content? "A title"
 #  end
 #
 #  def test_create_two_needs
@@ -35,13 +35,13 @@ class GotsPageTest < ActionController::IntegrationTest
 #    fill_in "Tags", :with => "car furniture apples"
 #    click_button "Save"
 #    puts response_body
-#    assert_contain "A title"
+#    assert page.has_content? "A title"
 #    visit "/needs/new"
 #    fill_in "Title", :with => "Another title"
 #    fill_in "Description", :with => "A description"
 #    fill_in "Tags", :with => "car furniture apples"
 #    click_button "Save"
-#    assert_contain "Another title"
+#    assert page.has_content? "Another title"
 #  end
 #
 #  def test_view_need
@@ -49,7 +49,7 @@ class GotsPageTest < ActionController::IntegrationTest
 #    need.tag_list = "tag1 tag2"
 #    need.save!
 #    visit need_path(need)
-#    assert_contain "title"
-#    assert_contain "tag1 tag2"
+#    assert page.has_content? "title"
+#    assert page.has_content? "tag1 tag2"
 #  end
 end

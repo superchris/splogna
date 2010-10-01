@@ -10,9 +10,9 @@ class MyHomePageTest < ActionController::IntegrationTest
     fill_in "Login", :with => "to_user"
     fill_in "Password", :with => "fooblyfoo"
     click_button "Log in"
-    assert_contain "Logged in successfully"
+    assert page.has_content? "Logged in successfully"
     visit "/my_splogna"
-    assert_contain "about something"
+    assert page.has_content? "about something"
   end
 
 end

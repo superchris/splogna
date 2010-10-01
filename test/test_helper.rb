@@ -16,3 +16,11 @@ class ActionMailer::TestCase
   include ActionController::UrlWriter
   default_url_options[:host] = "http://example.com"
 end
+
+require "capybara/rails"
+
+module ActionController
+  class IntegrationTest
+    include Capybara
+  end
+end

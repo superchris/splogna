@@ -4,9 +4,10 @@ class HomePageTest < ActionController::IntegrationTest
   fixtures :users
 
   def test_home_page
+    visit "/logout"
     visit "/"
-    assert_contain "Sign Up"
-    assert_contain "Login"
+
+    assert page.has_content? "Sign Up"
   end
 
   def test_home_page_logged_in
@@ -14,10 +15,10 @@ class HomePageTest < ActionController::IntegrationTest
     fill_in "Login", :with => "quentin"
     fill_in "Password", :with => "monkey"
     click_button "Log in"
-    assert_contain "Logged in successfully"
+    assert page.has_content? "Logged in successfully"
     visit "/"
-    assert_not_contain "Sign Up"
-    assert_contain "Log Out"
+    assert page.has_no_content? "Sign Up"
+    assert page.has_content? "Log Out"
   end
 
   def test_search
@@ -28,6 +29,7 @@ class HomePageTest < ActionController::IntegrationTest
     visit "/"
     fill_in "search", :with => "cars"
     click_button "Search"
-    assert_contain "first"
+    assert page.has_content? "first"
   end
+
 end
